@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.1.2",
+  "description": "Marfeel FrontEnd Test",
+  "main": "script.js",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "jest": "^27.3.1"
+  },
+  "scripts": {
+    "start": "live-server src --verbose",
+    "test": "jest"
+  },
+  "author": "Felipe Quiceno",
+  "license": "ISC"
+}
